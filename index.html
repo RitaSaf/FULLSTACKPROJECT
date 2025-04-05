@@ -3,13 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Team Info</title>
-  <link rel="stylesheet" href="https://bootswatch.com/5/cerulean/bootstrap.min.css">
+  <!-- Morph Bootstrap theme from Bootswatch -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/morph/bootstrap.min.css">
 </head>
 <body class="container mt-5">
-  <h1>Project Collaorators</h1>
-  <ul>
-    <li>Rita Safadi - 211712906 - ritasaf83@gmail.com</li>
-    <li>Rayan Ibraheem - 207519554 - rayanhib@gmail.com</li>
-  </ul>
+  <h1 class="mb-4">Project Collaborators</h1>
+  <div class="card p-3">
+    <ul class="list-unstyled">
+        <li>Rita Safadi - 211712906 - ritasaf83@gmail.com</li>
+        <li>Rayan Ibraheem - 207519554 - rayanhib@gmail.com</li>
+    </ul>
+  </div>
+
+  <button class="btn btn-primary mt-3" onclick="sayHi()">לחץ עליי</button>
+
+  <script>
+    function sayHi() {
+      alert("Hi Rita and Rayan");
+    }
+  </script>
 </body>
 </html>
